@@ -8,6 +8,5 @@ module.exports = React.createClass
         return (
             <div>
                 <ExampleIntro />
-                <FormExample />
             </div>
         )

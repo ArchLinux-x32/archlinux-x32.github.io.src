@@ -15,18 +15,16 @@ module.exports = React.createClass
     <div>
         <header className="header">
             <div className="logo-container">
-                <svg className="icon-i-roy logo center-block" dangerouslySetInnerHTML={{__html: '<use xlink:href="#icon-i-roy">'}} />
+                <img className="icon-i-roy logo center-block" src="images/logo.png" />
                 <div className="banner">
-                    <p dangerouslySetInnerHTML={{__html: 'My name is Roy <br />And I am a Developer <span>_</span>'}}></p>
+                    <p dangerouslySetInnerHTML={{__html: 'The x32 ABI (libx32) packages<br />for ArchLinux <span>_</span>'}}></p>
                 </div>
                 <div className="nav" activeClassName="active">
-                    <Link to="aboutme">
-                        <svg className="icon-aboutme" dangerouslySetInnerHTML={{__html: '<use xlink:href="#icon-aboutme">'}} />
-                        About Me
+                    <Link to="about">
+                        About
                     </Link>
                     <Link to="examples" activeClassName="active">
-                        <svg className="icon-examples" dangerouslySetInnerHTML={{__html: '<use xlink:href="#icon-examples">'}} />
-                        Examples
+                        Build
                     </Link>
                 </div>
             </div>
@@ -38,7 +36,7 @@ module.exports = React.createClass
         </div>
         <footer>
             <div className="content">
-                My name is Roy and I am a Developer
+                I'm Fantix King, a Python developer. <a href="https://www.linkedin.com/in/fantix">Hire me</a>
                 <div className="large">~♡ⓛⓞⓥⓔ♡~</div>
             </div>
         </footer>

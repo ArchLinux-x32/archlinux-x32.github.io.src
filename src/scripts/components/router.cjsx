@@ -16,9 +16,9 @@ Examples = require './pages/examples'
 
 routes = (
   <Route handler={App}>
-    <Route name="examples" handler={Examples} path="/" addHandlerKey={true} />
-    <Route name="aboutme" handler={require('./pages/aboutme')} path="/aboutme" addHandlerKey={true} />
-    <NotFoundRoute handler={Examples} />
+    <Route name="examples" handler={Examples} path="/build" addHandlerKey={true} />
+    <Route name="about" handler={require('./pages/aboutme')} path="/" addHandlerKey={true} />
+    <NotFoundRoute handler={require('./pages/aboutme')} />
   </Route>
 )
 Router.run(routes, (Handler) ->
