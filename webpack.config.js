@@ -19,7 +19,7 @@ module.exports = {
   debug: true,
   output: {
     path: path.join(__dirname, "public"),
-    filename: 'bundle.js'
+    filename: 'public/bundle.js'
   },
   resolveLoader: {
     modulesDirectories: ['node_modules']

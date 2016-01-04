@@ -20,7 +20,7 @@ module.exports = {
   devtool: 'source-map',
   output: {
       path: path.join(__dirname, "public"),
-      filename: "bundle.js"
+      filename: "public/bundle.js"
   },
   resolveLoader: {
     modulesDirectories: ['..', 'node_modules']
